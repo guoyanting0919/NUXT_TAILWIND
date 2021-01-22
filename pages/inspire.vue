@@ -6,6 +6,8 @@
       <v-card>
         <v-card-title class="headline">
           Welcome to the Vuetify + Nuxt.js template
+          <v-btn class="customBtn" elevation="2" fab>1111</v-btn>
+          <div class="w-32 h-32 bg-red-600"></div>
         </v-card-title>
         <v-card-text>s
           <p>
@@ -56,3 +58,8 @@
 <script>
 export default {};
 </script>
+<style lang="postcss">
+::v-deep .customBtn {
+  @apply bg-red-600 text-2xl text-green-700;
+}
+</style>

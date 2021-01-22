@@ -1,4 +1,5 @@
 module.exports = ({ dev, rootDir, srcDir }) => ({
+  important: "#app",
   theme: {},
   variants: {},
   plugins: [],
